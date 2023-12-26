@@ -1,0 +1,165 @@
+
+/* media for home section */
+@media screen and (max-width:900px) {
+    .home-content h2
+    {
+        font-size: 3.5rem;
+    }
+    .home-photo
+    {
+        width: 100%;
+    }
+    .home-content
+    {
+        width: 100%;
+        text-align: center;
+
+    }
+    .home-item
+    {
+        flex-direction: column-reverse;
+        
+    }
+    .home-section
+    {
+        height: 170vh;
+    }
+  
+
+}
+
+@media screen and (max-width:600px) {
+    nav ul 
+    {
+       
+
+        flex-direction: column;
+    }
+    nav
+    {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+} 
+
+/* end home section */
+
+@media screen and (max-width:900px) {
+    .item-content
+    {
+        width: 40%;
+        padding: 25px;
+        
+     
+    }
+    .items
+    {
+        flex-wrap: wrap;
+
+    }
+    .item-content p
+    {
+        font-size: 1.1rem;
+        padding: 5px 0px;
+    }
+    .item-content h5{
+        font-size: 1.1rem; 
+    }
+
+}
+@media screen and (max-width:790px) {
+    .item-content
+    {
+        width: 100%;
+        padding: 25px;
+        
+     
+    }
+    .items
+    {
+        flex-wrap: wrap;
+
+    }
+    .item-content p
+    {
+        padding: 5px 0px ;
+    }
+
+} 
+    
+
+/* contact */
+@media screen and (max-width:1200px) {
+    .subject input
+    {
+        width: 100%;
+        justify-content: center;
+
+    }
+    
+} 
+
+@media screen and (max-width:1130px) {
+    .address
+    {
+        width: 100%;
+    }
+    .adress-content h2
+    {
+
+    padding: 5px 0px;
+    color: #7d7d7d;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+.icona
+{
+    width: 50px;
+    height: 50px;
+   
+    
+}
+
+
+} 
+
+
+/* gallery */
+@media screen and (max-width:990px) {
+    .image
+    {
+        width: 50%;
+
+    }
+    
+    
+} 
+@media screen and (max-width:790px) {
+    .image
+    {
+        width: 100%;
+
+    }
+    
+    
+} 
+@media screen and (max-width:990px) {
+    .footer-desc
+{
+    background-color:#37373f;
+    width: 100%;
+    margin: 5px;
+    
+}
+.footer-item
+{
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+
+}
+    
+    
+} 
